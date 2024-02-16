@@ -46,3 +46,4 @@ def L(size,value):
     print (new_list)
 print(L(4,7))
 print(L(6,2))
+print(L(10,1))
