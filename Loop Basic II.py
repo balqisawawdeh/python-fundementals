@@ -73,8 +73,19 @@ def DicList():
 print(DicList())
 
 #Reverse
-def Reverse():
-    DicList=[37,2,1,-9]
-    DicList.reverse()
-    print(DicList)
-print(Reverse())
+# def Reverse():
+#     DicList=[37,2,1,-9]
+
+#     DicList.reverse()
+#     print(DicList)
+# print(Reverse())
+def reverse_2(DictList):
+    a=0
+    med=len(DictList)/2
+    for i in range (len(DictList)-1,int(med),-1):
+        temp=DictList[a]
+        DictList[a]=DictList[i]
+        DictList[i]=temp
+        a+=1
+        print(DictList)
+reverse_2([37,2,1,-9])

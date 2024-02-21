@@ -1,25 +1,25 @@
 #Countdown
-def a():
+def count_down():
     for i in range (5,0,-1):
         print(i)
-print (a())
+a()
 
-#Print and Return
-def b():
+#print_and_return
+def print_and_return():
     list =[2,1]
     print(list[0])
     return list[1]
-print (b())
+print_and_return()
 
-#FirstpPlusLength
-def s():
-    list=[5,10,20]
-    sum = list[0]+list[-1]
+#first_plus_length
+def first_plus_length():
+    list=[1,2,3,4,10]
+    sum = list[0]+len(list)
     return sum
-print (s())
+print(first_plus_length())
 
 #Values Greater than Second
-def f():
+def greater():
     list=[5,2,3,2,1,4]
     low=0
     high=len(list)
@@ -34,16 +34,16 @@ def f():
         else:
             if len(list)<2:
                 False 
-print(f())
+greater()
 
 #This Length, That Value
-def L(size,value):
+def length_value(size,value):
     list=[]
     list=[size,value]
     print(list)
     for i in range (0,len(list)):
         new_list=[value]*size
     print (new_list)
-print(L(4,7))
-print(L(6,2))
-print(L(10,1))
+print(length_value(4,7))
+print(length_value(6,2))
+print(length_value(10,1))
