@@ -13,9 +13,9 @@ class User:
     def display_user_balance(self):
         print(self.name,"/",self.account_balance)
 
-user1 = User("Balqees",2000)
-user2 = User("Fatima",2000)
-user3 = User("Mai",2000)
+user1 = User("Balqees",0)
+user2 = User("Fatima",0)
+user3 = User("Mai",0)
 
 print("User 1:")
 user1.make_deposit(100)
